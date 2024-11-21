@@ -1,0 +1,4 @@
+import ankaramesi
+encrypted_data = [b'gAAAAABnP6EaGh1clBYH1tj8wL6emWsYGIjcADI3MeM_7QICZaYOGzgp9HGc16XnNlwFpcmNpimm5AnS2Y2T6FZq3GEgghT2Dg==', b'gAAAAABnP6ErZAnE5STEeRPH-qQPgBupQH1NR7MssIkLkJ3DuSeMYiQfa4rix3hoyQg-bcmpBDj3EXq2DEF-m8c20dzyQUTG5Q==', b'gAAAAABnP6ErU1XWIFcfVburtvLxkph5YilgjzqlmSABqlMLMWdbf8EPoEDYZRMuAwUhl8lzvNtcGEvoz-EYC5n3xt198IgM3g==', b'gAAAAABnP6ErAHov4WI-RA-OnfuTiKcu8HoLIT5Qks8RVJAKriPJ1Dk1zcn05oBtATh3gFBBn-vkDL2hvIgR4iuMHCdFWUbgVQ==']
+keys = [b'GR241yCYRUTKPGM3HCVWNT7NjcHxHHhUs4f8aA4gbOI=', b'Ay3phifyOmHse8GFBBfZu8wSPIMIaqlNuSVolXlFtqs=', b'b2qE-8wNhQmU40UFzM2aeSLZdmpas-yoXPtyivtl_Sk=', b'oFd0vL1VfrgIzzA08jyCRk4PZvWMsxyXCsRhBC_Zxx0=']
+print(ankaramesi.decrypt_text_with_keys(encrypted_data,keys))
